@@ -31,6 +31,9 @@ DeviceNetworkEvents
 | order by ConnectionCount
 ```
 
+![image](https://github.com/user-attachments/assets/784aaaf5-46f7-4842-b873-dea44c778cee)
+
+
 ## 3️⃣ Data Analysis
 ### 🎯 Goal: Analyze data to test your hypothesis.
 
@@ -65,6 +68,10 @@ DeviceProcessEvents
 | order by Timestamp desc
 | project Timestamp, FileName, InitiatingProcessCommandLine
 ```
+
+![image](https://github.com/user-attachments/assets/7164b37c-403a-441b-a07d-62b25e2be31c)
+
+
 - The port scan was launched by the SYSTEM account—unexpected behavior not pre-scheduled by admins.
 
 ## 5️⃣ Response
